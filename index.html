@@ -5,7 +5,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
-    <title>SUP in the triangle</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+<title>SUP in the triangle</title>
 </head>
 <body>
     <!-- The header for navigation -->
@@ -13,9 +15,10 @@
 		
 		<nav>
 			<ul>
-        		<li><a href="#spots">Primitive Spots</a></li>
-				<li><a href="#family">Family friendly spots</a></li>
-				<li><a href="#night">Night paddling spots</a></li>
+        		<li class="links"><a href="#spots">Primitive Spots</a></li>
+				<li class="links"><a href="#family">Family friendly spots</a></li>
+				<li class="links"><a href="#night">Night paddling spots</a></li>
+                <li class="links"><a href="#videos">Paddling Videos</a></li>
 			</ul>	
 		</nav>
 		<h1>SUP in the Triangle</h1>
@@ -136,10 +139,24 @@
                 <figcaption>Reflections at dusk</figcaption>
             </figure>
         </section>
-        <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/563942178?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="paddleboard sillyness.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+        <!-- Section 4 is for videos of paddling -->
+        <section id="videos">
+            <h2>Videos of paddling</h2>
+            <p>Here is a video of my trying to do a hand stand, it doesnt go so well, but atleast it was fun.</p>
+            <div id="video" style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/563942178?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="paddleboard sillyness.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <p>If you are a beginner paddler, here is a video to get you up and going in no time.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ES2mShoQ3_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <br>
+           <p>A couple other videos that can help you be successful at learning to paddle.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yD5AUo7S7Cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mwaYchY2gJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
     </main>
 
     <footer>
+        <!-- A form to sign up for newsletter -->
         <form action="/action_page.php">
             <label for="fname">If you would like to join my monthly newsletter, please send me your email address</label><br>
             <input type="text" id="fname" name="fname" value="example@email.com"><br>

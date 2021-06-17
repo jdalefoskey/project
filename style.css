@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 	border: 0;
+	text-align: center;
 }
 
 html {
@@ -39,6 +40,7 @@ a {
 
 section {
 	background-color: black;
+	/* border: 3px solid white; */
 }
 
 nav , ul {
@@ -47,6 +49,7 @@ nav , ul {
 
 h2 {
 	text-align: center;
+	font-family: 'Anton', sans-serif;
 }
 
 header {
@@ -84,4 +87,36 @@ h1 , h2 {
 
 figcaption {
 	text-align: center;
+}
+
+#videos , #video {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#video {
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+
+}
+
+.links {
+	font-size: x-large;
+
+	text-decoration: none;
+}
+
+p {
+	padding-top: 50px;
+	max-width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+table {
+	border: 3px solid white;
+	margin-bottom: 100px;
+	padding: 10px;
+	
 }
