@@ -1,34 +1,39 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 	border: 0;
-	text-align: center;
+	line-height: 2;
+	letter-spacing: 1.5px;	
+	font-family: 'Roboto Slab', serif;
+	
 }
 
 html {
     background-color: black;
 	color: white;
-	font-family: 'Baloo Tammudu 2', cursive;
 }
 
-p, li, ul {padding: 10px;}
 
-figure #SUP {
-	width: 100%;
+p, li, ul {
+	padding: 10px;
 }
 
-img {
-	width: 100%;
-}
+ img {
+	width: 80vw;
+	margin: 0 auto;
+} 
+
 html {
-	margin:20px auto;
+	margin: 0 auto;
 }
-main { margin: 100px auto;}
+
+main { 
+	margin: 0 auto;
+}
 
 nav , li , form , input {
 	display: inline-block;
-	text-align: center;
-}
+ }
 
 h1 {
 	font-size: 5em;
@@ -40,16 +45,18 @@ a {
 
 section {
 	background-color: black;
-	/* border: 3px solid white; */
 }
 
-nav , ul {
+nav , ul , li {
 	text-align: center;
+	margin: 0px auto;
 }
 
 h2 {
 	text-align: center;
 	font-family: 'Anton', sans-serif;
+	padding-top: 20px;
+	/* padding-bottom: 10px; */
 }
 
 header {
@@ -63,8 +70,9 @@ table {
 th , td {
 	margin: 15px;
 	padding: 15px;
+	margin: 0 auto;
 	text-align: center;
-}
+ } 
 
 footer {
 	text-align: center;
@@ -74,7 +82,7 @@ input {
 	width: 60%;
 	height: 25px;
 	background-color: cyan;
-	
+	text-align: center;
 }
 
 th {
@@ -89,34 +97,52 @@ figcaption {
 	text-align: center;
 }
 
-#videos , #video {
-	margin-top: 100px;
-	margin-bottom: 100px;
-}
 
-#video {
-	width: 600px;
-	height: 300px;
-	margin: 0 auto;
-
-}
 
 .links {
-	font-size: x-large;
-
+	font-size: large;
 	text-decoration: none;
 }
 
 p {
-	padding-top: 50px;
+	padding-top: 10px;
 	max-width: 60%;
-	text-align: center;
 	margin: 0 auto;
+	font-size: medium;
 }
 
 table {
-	border: 3px solid white;
-	margin-bottom: 100px;
-	padding: 10px;
+	padding: 10px;	
+} 
+
+#learnhow {
+	padding-top: 50px;
+}
+
+
+ 
+#fam {
+	width: 170px;
+	height:125px;
+}
+
+
+#videos {
+	margin: 0 auto;
+	width: 90vw;
+	height: 60vh:
+
+}
+
+iframe {
+	margin: 0 auto;
+	width: 80%;
 	
+}
+
+figure {
+	margin-right: auto;
+	width: 80%;
+	margin-left: auto;
+	padding-bottom: 40px;
 }
